@@ -34,6 +34,12 @@ namespace WebAppAula2.Controllers
 
         public ApplicationSignInManager SignInManager
         {
+
+
+
+
+
+
             get
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
