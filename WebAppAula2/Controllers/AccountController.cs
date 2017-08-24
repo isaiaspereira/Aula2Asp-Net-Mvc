@@ -18,6 +18,8 @@ namespace WebAppAula2.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+
+        //todo:construtor da metodo
         public AccountController()
         {
         }
@@ -27,6 +29,8 @@ namespace WebAppAula2.Controllers
             UserManager = userManager;
             SignInManager = signInManager;
         }
+
+
 
         public ApplicationSignInManager SignInManager
         {
