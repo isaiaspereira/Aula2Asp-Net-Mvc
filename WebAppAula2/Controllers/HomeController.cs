@@ -9,7 +9,7 @@ namespace WebAppAula2.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
+        { //thiago 19:20
             //todo:implementar acesso a dados
             return View();
         }
